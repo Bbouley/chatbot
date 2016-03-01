@@ -1,7 +1,7 @@
 var submitButton = document.getElementById('submit_text');
 var textIn = document.getElementById('text_in').value;
 
-// Chat Bot - Bot replies with something based on what is being input
+// Chat Bot - Bot replies with something based on what is being input - If statements
 
 submitButton.onclick = function () {
     var textIn = document.getElementById('text_in').value;
@@ -12,11 +12,12 @@ submitButton.onclick = function () {
     } else if (textIn === 'Bradley') {
         message.innerHTML = 'Nice Name Bro!!'
     } else if (textIn === 'Zach') {
-        message.innerHTML = 'Zach is not as cool a name'
+        message.innerHTML = 'Zach is not as cool a name as Bradley. I guess it\'s okay.'
     } else {
         message.innerHTML = 'Whatever';
     }
 
-    textIn = '';
-
 }
+
+
+// For loop exercise - How to display something using a for loop
